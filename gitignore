@@ -1,0 +1,21 @@
+# Fichiers de données volumineux
+*.csv
+*.parquet
+*.npy
+
+# Modèles et dossiers générés par l'entraînement
+catboost_info/
+outputs/
+submissions/
+*.model
+*.pb
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
